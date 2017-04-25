@@ -98,7 +98,7 @@ class views_plugin_row extends views_plugin {
   /**
    * Validate the options form.
    */
-  function options_validate($form, &$form_state) { }
+  function options_validate($form, $form_state) { }
 
   /**
    * Perform any necessary changes to the form values prior to storage.

@@ -84,7 +84,7 @@ class views_plugin_query extends views_plugin {
    */
   function options_form(&$form, &$form_state) { }
 
-  function options_validate($form, &$form_state) { }
+  function options_validate($form, $form_state) { }
 
   function options_submit($form, &$form_state) { }
 
